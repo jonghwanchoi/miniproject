@@ -7,7 +7,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 import config
 
-#전역 변숫 선언
+#전역 변수 선언
 db = SQLAlchemy()
 migrate = Migrate()
 
